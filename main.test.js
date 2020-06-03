@@ -3,9 +3,32 @@
 Your code goes below.
 
 */
+let x = 3;
+let y = 10;
+let z = 5;
+let name = 'Ruben';
+let greeting = 'HEY';
 
+function multiply(product){
+  x = x * product
+}
 
+function modYBy(modded){
+   y = y % modded;
+   
+}
 
+function opposite(neg){
+  z = neg * -1;
+}
+
+function makeFullName(lastName){
+  name = name + ' ' + lastName
+}
+
+function yellAt(yell){
+greeting = greeting + ', ' + yell + '!';
+}
 
 
 
